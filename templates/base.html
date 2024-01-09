@@ -1,0 +1,17 @@
+<!DOCTYPE html> 
+<html lang = "en"> 
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content="width=device-width, initial_scale=1.0">
+    <meta http-equiv = "X-UA-Compatible" content="ie=edge">
+    <link rel = "stylesheet" href="{{ url_for('static', filename='css/main.css') }}"
+    {% block head %} {% endblock %} 
+    <!–– This is Jinja2 syntax, this is where we are going to 
+    insert our code on all the other pages that inherit this template
+    ––>
+</head>
+<body>
+    {% block body %} {% endblock %} 
+</body>
+
+</html>

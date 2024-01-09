@@ -1,2 +1,4 @@
 # flaskintroduction
-Use Flask on Python to create a simple To do List web app
+
+Use Flask in Python to create a simple "To do List" Web App
+
